@@ -1,17 +1,17 @@
-const Category = require('./../../schemas/category')
+const Product = require('./../../schemas/product')
 
 module.exports = (req, res) => {
-	Category
+	Product
 		.find({
 			enable: true
 		})
-		.then((categories) => {
+		.then((products) => {
 
 			return res.render('main/index', {
 				title: 'Admin Ecommerce',
 				layout: 'layouts/base',
 				user: req.user || undefined,
-				categories
+				products
 			})
 		})
 		.catch((error) => {

@@ -23,8 +23,10 @@
     "method-override": "^2.3.8",
     "mongoose": "^4.9.9",
     "morgan": "^1.8.1",
+    "pagseguro": "^0.1.0",
     "passport": "^0.3.2",
-    "passport-local-mongoose": "^4.0.0"
+    "passport-local-mongoose": "^4.0.0",
+    "xml2js": "^0.4.17"
   },
   "devDependencies": {
     "del": "^2.2.2",
