@@ -2,12 +2,17 @@ const User = require('./../../schemas/user')
 
 module.exports = (req, res) => {
 
-	User
-		.create(req.body)
-		.then((user) => {
-			return res.redirect('/user')
-		})
-		.catch((error) => {
+	let data = {
+		
+		email: req.body.email
+	}
 
-		})
+
+			User.register(data, req.body.password, (error, account) => {
+		if (error) {
+			return res.redirect('/')
+		}
+
+		return res.redirect('/user')
+	})
 } 
