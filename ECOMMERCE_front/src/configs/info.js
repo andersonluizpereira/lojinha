@@ -1,4 +1,4 @@
 module.exports = {
-	tokenPag: 'BDDA84FCC96B452D934081B3A849CAF9',
-	emailPag: 'leonan.luppi@gmail.com'
+    tokenPag: '7158BAA621A245A6A1868B68F66B215A',
+    emailPag: 'andy2903.alp@gmail.com'
 }
