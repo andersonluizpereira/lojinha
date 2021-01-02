@@ -4,7 +4,8 @@
   "description": "ecommerce based node.js",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bower":"bower install"
   },
   "keywords": [
     "ecommerce",
@@ -16,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
+    "bower": "^1.8.8",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
     "express-ejs-layouts": "^2.3.0",
